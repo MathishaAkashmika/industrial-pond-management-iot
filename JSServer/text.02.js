@@ -5,9 +5,9 @@ const app = express();
 const port = 3000; // You can use any port that is free on your server
 
 // MongoDB URL and database configuration
-const mongoUrl = 'YOUR_MONGODB_CONNECTION_STRING'; // Replace with your MongoDB connection string
-const dbName = 'YOUR_DATABASE_NAME'; // Replace with your database name
-const collectionName = 'sensorData'; // Replace with your collection name
+const mongoUrl = 'mongodb+srv://mathisha:FlGxk3PKNy8MrvKo@userdataiot.e0w96vl.mongodb.net/'; // Replace with your MongoDB connection string
+const dbName = 'userdataiot'; // Replace with your database name
+const collectionName = 'sensordata'; // Replace with your collection name
 
 app.use(bodyParser.json());
 
