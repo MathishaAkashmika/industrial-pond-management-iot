@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .dash-heading-text-box h1{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    min-height: 100vh;
+  }
+  
+  /* Dashboard grid layout */
+  .dashboard {
+    gap: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Sensor card styling */
+  .sensor-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .sensor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  
+  /* Link styling inside cards */
+  .sensor-card a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .text-dash {
+    background-color: black;
+    background-size: cover;
+    width: 100vw; /* Cover the full viewport width */ 
+    position: fixed; /* Or absolute, depending on your needs */
+    top: 0;
+    left: 0;
+  }
+  
